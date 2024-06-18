@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #7e9adb;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #6c8fe0;
+}
+
+.Profil {
+    max-width: 50%;
+}
+
+.Profil h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.Profil p {
+    margin-bottom: 30px;
+}
+
+.Profil .Profil {
+    background-color: #290a86;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+.Profil a:hover{
+    color: #290a86;
+}
+
+.social-icons {
+    display: flex;
+    gap: 50px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    padding-top: 30px;
+}
+
+.header-image {
+    max-width: 40%;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about, #contact {
+    background-color: #290a86;
+}
+
+#skills, #Education, #Organizational {
+    background-color: #4072be;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skill, .Education, .Organizational {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #290a86;
+    border-radius: 10px;
+}
+
+.skill img, .Education img {
+    width: 160px;
+    height: 110px;
+}
+
+.Education .Profil {
+    background-color: #ffffff ;
+    color: #000000;
+    padding: 10px 70px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    margin-top: 30px;
+    
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input, #contact form textarea {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#contact form button{
+    background-color: #EADFB4;
+    color: #000;
+    padding:
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+footer {
+    background-color: #4072be;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 10px 0;
+}
+footer nav {
+    margin: 10px 0;
+}
+footer nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .social-icons {
+    margin: 10px 0;
+}
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
